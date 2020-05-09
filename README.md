@@ -1,6 +1,6 @@
 # Tuenti Challenge 10
 
-* [Challenge 1](challenge-1)
+* [Challenge 1](challenge-1): [wording](challenge-1/README.md) / [code](challenge-1/challenge1.py) / [write-up](challenge-1/WRITEUP.md)
 * [Challenge 2](challenge-2)
 * [Challenge 3](challenge-3)
 * [Challenge 4](challenge-4)
