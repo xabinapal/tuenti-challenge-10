@@ -1,0 +1,3 @@
+# Write-up 2 - The Lucky One
+
+The key to the solution is the sentence *A unique solution is guaranteed to exist.*. If no two players have the same skill level, that means that the best player has to be the one that has won all matches, and because there is only one solution, every other player must have lost at least one match. Finding every match winner and substracting all match losers returns the only player that didn't lost any match

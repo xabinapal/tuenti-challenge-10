@@ -10,7 +10,7 @@ A unique solution is guaranteed to exist.
 
 The first line has an integer **C**, which is the number of cases for the problem.
 
-Each case starts with a line with one integer, **N**, which is the number of matches. The following **N** lines contain three integers: **A**, the number of the first player, **B**, the number of the second player, and **R**, which is 1 if A won, and 0 otherwise. Players are numbered from 1 to P, with P being the total number of players.
+Each case starts with a line with one integer, **N**, which is the number of matches. The following **N** lines contain three integers: **A**, the number of the first player, **B**, the number of the second player, and **R**, which is `1` if **A** won, and `0` otherwise. Players are numbered from **1** to **P**, with **P** being the total number of players.
 
 ## Output
 
