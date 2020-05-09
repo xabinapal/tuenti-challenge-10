@@ -1,4 +1,5 @@
 # Challenge 3 - Fortunata and Jacinta
+
 This year is 2020 and, for the centenary of the death of the famous writer, Benito Perez Galdos, Tuenti is paying homage to the universal writer in this challenge.
 
 ![ctrlsc4.jpg](../assets/challenge-3/ctrlsc4.jpg)
@@ -10,6 +11,7 @@ We're going to analyze Galdos's masterpiece "Fortunata y Jacinta". You can find 
 We want to count the number of instances of each word and rank all words according to a certain order.
 
 The sort criteria will be:
+
 1. Descending frequency. Rank #1 will be the word with the highest frequency.
 2. When several words have the same frequency, UNICODE ORDER will be applied (sort by the unicode value of the char).
 
@@ -41,27 +43,31 @@ The sorted order would be:
 You must follow these rules:
 1. Convert all words to lowercase
 2. Only consider the following letters: `a, b, c, d, e, f, g, h, i, j, k, l, m, n, ñ, o, p, q, r, s, t, u, v, w, x, y, z, á, é, í, ó, ú, ü`.  
-Discard replacing with SPACE any other letter, digit or punctuation mark.  
-Sample:  
-        Release Date: November 5, 2005 [EBook #17013]
-        [Last updated on December 21, 2019]
-        Mi primer hijo--decía--nació cuando vino la tropa carlista
-        «D. Plácido, ¿tiene usted pana azul?».--«¡Pana azul!
-        --¿Vive aquí--le preguntó--el Sr. de Estupiñá?
-        --¡Qué poca vergüenza!
-        Pues apechuguemos con las _novedades_» dijo Isabel a su marido
-        Barbarita declaraba riendo que con estos teje-manejes se había vuelto, sin saberlo, una doña Beatriz Galindo
-        ¡Pero las niñas!... ¡Y con estas modas de ahora y este suponer!... ¿Viste la pieza de merino azul?, pues no fue bastante
-Output discarding invalid characters would be:  
-        release date  november          ebook
-        last updated on december
-        mi primer hijo  decía  nació cuando vino la tropa carlista
-         d  plácido   tiene usted pana azul       pana azul
-           vive aquí  le preguntó  el sr  de estupiñá
-           qué poca vergüenza
-         pues apechuguemos con las  novedades   dijo isabel a su marido
-         barbarita declaraba riendo que con estos teje manejes se había vuelto  sin saberlo  una doña beatriz galindo
-         pero las niñas      y con estas modas de ahora y este suponer      viste la pieza de merino azul   pues no fue bastante
+    Discard replacing with SPACE any other letter, digit or punctuation mark.  
+    Sample:  
+    ```
+    Release Date: November 5, 2005 [EBook #17013]
+    [Last updated on December 21, 2019]
+    Mi primer hijo--decía--nació cuando vino la tropa carlista
+    «D. Plácido, ¿tiene usted pana azul?».--«¡Pana azul!
+    --¿Vive aquí--le preguntó--el Sr. de Estupiñá?
+    --¡Qué poca vergüenza!
+    Pues apechuguemos con las _novedades_» dijo Isabel a su marido
+    Barbarita declaraba riendo que con estos teje-manejes se había vuelto, sin saberlo, una doña Beatriz Galindo
+    ¡Pero las niñas!... ¡Y con estas modas de ahora y este suponer!... ¿Viste la pieza de merino azul?, pues no fue bastante
+    ```  
+    Output discarding invalid characters would be:  
+    ```
+    release date  november          ebook
+     last updated on december
+    mi primer hijo  decía  nació cuando vino la tropa carlista
+     d  plácido   tiene usted pana azul       pana azul
+       vive aquí  le preguntó  el sr  de estupiñá
+       qué poca vergüenza
+    pues apechuguemos con las  novedades   dijo isabel a su marido
+    barbarita declaraba riendo que con estos teje manejes se había vuelto  sin saberlo  una doña beatriz galindo
+     pero las niñas      y con estas modas de ahora y este suponer      viste la pieza de merino azul   pues no fue bastante
+    ```
 3. According to UNICODE ORDER, valid set of characters ordered should be: `a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, á, é, í, ñ, ó, ú, ü`
 4. Discard words with fewer than three characters. Example: `y, a, o, de, el, la,...`
 
