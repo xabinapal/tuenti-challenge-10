@@ -6,7 +6,7 @@
 * [Challenge 4](challenge-4): [wording](challenge-4/README.md) / [code](challenge-4/challenge4.sh) / [write-up](challenge-4/WRITEUP.md)
 * [Challenge 5](challenge-5)
 * Challenge 6 (WIP)
-* [Challenge 7](challenge-7)
+* [Challenge 7](challenge-7): [wording](challenge-7/README.md) / [code](challenge-7/challenge7.sh) / [write-up](challenge-7/WRITEUP.md)
 * [Challenge 8](challenge-8)
 * [Challenge 9](challenge-9)
 * Challenge 10 (WIP)
